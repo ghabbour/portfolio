@@ -2,7 +2,7 @@ $(function(){
     
     // Loading screen
     $(window).on('load',function(){
-       $('.loading-screen .spinner').fadeOut(2000,function(){
+       $('.loading-screen .spinner').fadeOut(1000,function(){
            $(this).parent().fadeOut(500,function(){
                 $(this).remove();     
            });

@@ -32,8 +32,8 @@ ul {
 .sidebar {
     position: fixed;
     top: 0;
-    left: -300px;
-    width: 300px;
+    left: -280px;
+    width: 280px;
     height: 100%;
     background: #fff;
     box-shadow: 0 0 10px rgba(100,100,100,0.8);
@@ -340,6 +340,7 @@ ul {
 
 
 
+
 /* ================
     Skills section
     ================ */
@@ -500,10 +501,9 @@ ul {
     background: linear-gradient( rgba(255,255,255,.7) , rgba(255,255,255,0.7) ) ,  url('../img/social-3.jpg') center center no-repeat;
     
 	background-size: cover;
-    background-attachment: fixed;
     .social-media {
         p {
-            color: #666;
+            color: #333;
             font-size: 1.4em;
             font-family: $font-raleway;
             margin-bottom: 1em;
@@ -535,9 +535,12 @@ ul {
     
 }
 
-@media (max-width: 420px ) {
+@media (max-width: 480px ) {
     .contact {
         .social-media {
+            p {
+                font-size: 1.2em;
+            }
             .social {
                 li {
                     margin: 0 6px;
